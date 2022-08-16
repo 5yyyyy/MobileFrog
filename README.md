@@ -8,3 +8,5 @@
 
 ### 关于俯视角叠层渲染  
 Edit --> Project Settings --> Graphics 选择Camera Settings --> Transparency Sort Mode --> Default更改为Custom Axis 之后将Transparency Sort Axis更改为以y轴为判定基准 即x为0 y为1 z为0(该功能仅针对需要俯视角叠层渲染的项目)
+
+### 关于素材锚点更改
