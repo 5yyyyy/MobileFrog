@@ -16,5 +16,5 @@ Edit --> Project Settings --> Graphics 选择Camera Settings --> Transparency So
 选中物体后在Inspector窗口中选择Addtional Settings --> Sorting Layer --> Add Sorting Layer在其中增加或删除排列的图层 图层排序中越在下面则在游戏中越处于上层
 
 
-### 关于更改输入系统
+### 关于更改使用新输入系统
 Edit --> Project Settings --> Player --> Other Settings --> Configuration --> Active Input Handling将Input Manager(old)改为Input System Package(New)
