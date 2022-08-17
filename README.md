@@ -17,4 +17,8 @@ Edit --> Project Settings --> Graphics 选择Camera Settings --> Transparency So
 
 
 ### 关于更改使用新输入系统
-Edit --> Project Settings --> Player --> Other Settings --> Configuration --> Active Input Handling将Input Manager(old)改为Input System Package(New)
+Edit --> Project Settings --> Player --> Other Settings --> Configuration --> Active Input Handling将Input Manager(old)改为Input System Package(New) 更改完毕后在Windows --> Package Manager下找到Input System进行安装即可
+
+
+### 关于新输入系统
+新建输入系统在Project窗口中Create --> Input Actions 打开Input Actions即可编辑Input系统 在Action Maps中可以添加一套输入系统 Action中为对应的操作按键模式 一个行为对应着一套按键 Action Properties中Action --> Action Type可以设置输入类型 Interaction可以设置按键的规则
