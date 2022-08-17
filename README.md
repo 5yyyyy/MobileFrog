@@ -22,3 +22,7 @@ Edit --> Project Settings --> Player --> Other Settings --> Configuration --> Ac
 
 ### 关于新输入系统
 新建输入系统在Project窗口中Create --> Input Actions 打开Input Actions即可编辑Input系统 在Action Maps中可以添加一套输入系统 Action中为对应的操作按键模式 一个行为对应着一套按键 Action Properties中Action --> Action Type可以设置输入类型 Interaction可以设置按键的规则
+
+### 关于挂载新输入系统使用
+在想要添加该输入系统的物体下添加Player Input组件 将Input Actions添加到Player Input --> Actions中即可 将Player Input --> Behavior中的Send Messages改为Invoke Unity Events做为事件即可使用新输入系统与脚本的方法
+
